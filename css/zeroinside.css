@@ -17,6 +17,8 @@
  *
  * (c) 2009-2016 Adobe Systems Incorporated. All Rights Reserved.
  */
+@import url("owlcarousel.css");
+@import url("uikit.scrollspy.css");
 
 @font-face {
     font-family: "europa";
@@ -756,7 +758,8 @@ section#contact .text-danger {
 
 footer {
     padding: 25px 0;
-    text-align: center
+    text-align: center;
+    background-color: #fed136
 }
 
 footer span.copyright {
@@ -977,7 +980,7 @@ body {
 
 .under-construction2{
 	position: relative;
-	background-color: #0abfb0;
+	background-color: #1ABC9C;
 }
 
 .fullwidth
@@ -1028,3 +1031,35 @@ body {
 		line-height: 90px;
 		color: #444;
 	}
+
+p.backtotop {
+	margin: 0 0 40px 0;
+}
+
+p.backtotop a {
+	position: relative;
+	display: inline-block;
+	background: #EEE;
+	font-size: 32px;
+	line-height: 32px;
+	color: #999;
+	padding: 5px 12px;
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	border-radius: 4px;
+}
+
+p.backtotop a:hover{
+	background-color: #1ABC9C;
+	color: #FFF;
+	text-decoration: none
+}
+
+p.backtotop a:active{
+	top: 2px
+}
+
+p.author {
+	font-size: 24px;
+	font-style: italic
+}
