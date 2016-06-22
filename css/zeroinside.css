@@ -970,3 +970,61 @@ body {
 	background-color: #222
 }
 
+.under-construction{
+	position: relative;
+	background-color: #fed136
+}
+
+.under-construction2{
+	position: relative;
+	background-color: #0abfb0;
+}
+
+.fullwidth
+{
+	width: 100%;
+	padding: 60px 10px;
+	min-width: 280px;
+}
+
+	.fullwidth .bodycontainer
+	{
+		margin: 0 auto;
+		width: 100%;
+		max-width: 1000px;
+		text-align: center;
+	}
+	
+#topcontainer
+{
+
+}
+
+	#topcontainer h1
+	{
+		margin-bottom: 0;
+		letter-spacing: -1.5px;
+		color: #444;
+		font-weight: 400;
+	}
+	
+		#topcontainer h1 span
+		{
+			font-size: 70px;
+			line-height: 70px;
+			letter-spacing: 5px;
+			font-weight: 300;
+		}
+
+	#topcontainer p
+	{
+		margin-bottom: 0;
+		color: #444;
+	}
+
+	#topcontainer p span
+	{
+		font-size: 90px;
+		line-height: 90px;
+		color: #444;
+	}
