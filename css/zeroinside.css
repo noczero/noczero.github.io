@@ -1145,4 +1145,14 @@ p.author {
 	padding : 20px
 }
 
+.experience {
+	position: relative;
+	padding : 50px 0px;
+}
+
+.timeline-body p span {
+	padding : 5px 0px;
+	font-size:24px;
+	line-height:24px;
+}
 
