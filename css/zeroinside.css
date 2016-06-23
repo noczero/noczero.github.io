@@ -1063,3 +1063,57 @@ p.author {
 	font-size: 24px;
 	font-style: italic
 }
+
+/* ==================================================
+   Separator Arrows
+================================================== */
+
+.arrow-separator
+{
+	position: relative;
+}
+
+	.arrow-separator:after
+	{
+		top: 100%;
+		border: solid transparent;
+		content: " ";
+		height: 0;
+		width: 0;
+		position: absolute;
+		pointer-events: none;
+		border-width: 12px;
+		left: 50%;
+		margin-left: -12px;
+		z-index: 11;
+	}
+	
+		.arrow-white:after
+		{
+			border-color: #FFF rgba(255,255,255,0) rgba(255,255,255,0) rgba(255,255,255,0); /** Using RGB to remove dark line in Firefox **/
+		}
+		
+		.arrow-theme:after
+		{
+			border-color: #16A085 rgba(22,160,133,0) rgba(22,160,133,0) rgba(22,160,133,0);
+		}
+		
+		.arrow-themelight:after
+		{
+			border-color: #1ABC9C rgba(26,188,156,0) rgba(26,188,156,0) rgba(26,188,156,0);
+		}
+
+		.arrow-grey:after
+		{
+			border-color: #f7f7f7 rgba(238,238,238,0) rgba(238,238,238,0) rgba(238,238,238,0);
+		}
+
+		.arrow-black:after
+		{
+			border-color: #000 rgba(0, 0, 0, 0) rgba(0, 0, 0, 0) rgba(0, 0, 0, 0);
+		}
+
+		.arrow-yellow:after
+		{
+			border-color: #fed136 rgba(255, 153, 0 ,0) rgba(255, 153, 0 ,0) rgba(255, 153, 0 ,0);
+		}
