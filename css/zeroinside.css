@@ -1000,7 +1000,7 @@ body {
 	
 #topcontainer
 {
-
+	position: relative;
 }
 
 	#topcontainer h1
@@ -1117,3 +1117,32 @@ p.author {
 		{
 			border-color: #fed136 rgba(255, 153, 0 ,0) rgba(255, 153, 0 ,0) rgba(255, 153, 0 ,0);
 		}
+	
+/*GROW*/
+
+.pic { 
+	position: relative;  
+}
+
+.grow img {
+  height: 50%;
+  width: 50%;
+ 
+  -webkit-transition: all 1s ease;
+     -moz-transition: all 1s ease;
+       -o-transition: all 1s ease;
+      -ms-transition: all 1s ease;
+          transition: all 1s ease;
+}
+ 
+.grow img:hover {
+  width: 52%;
+  height: 52%;
+}
+
+.award {
+	position : relative;
+	padding : 20px
+}
+
+
