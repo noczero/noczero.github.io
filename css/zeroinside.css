@@ -175,6 +175,59 @@ fieldset[disabled] .btn-primary.active {
     background-color: #
 }
 
+.btn-visit{
+ 	color: #fff;
+    background-color: #e67e22;
+    border-color: #e67e22;
+    font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    text-transform: uppercase;
+    font-weight: 700;
+    border-radius: 3px;
+    font-size: 18px;
+    padding: 20px 40px;
+    margin-top: 20px
+}
+
+.btn-visit:hover,
+.btn-visit:focus,
+.btn-visit:active,
+.btn-visit.active,
+.open .dropdown-toggle.btn-visit {
+    color: #fff;
+    background-color: #fec503;
+    border-color: #f6bf01
+}
+
+.btn-visit:active,
+.btn-visit.active,
+.open .dropdown-toggle.btn-visit {
+    background-image: none
+}
+
+.btn-visit.disabled,
+.btn-visit[disabled],
+fieldset[disabled] .btn-visit,
+.btn-visit.disabled:hover,
+.btn-visit[disabled]:hover,
+fieldset[disabled] .btn-visit:hover,
+.btn-visit.disabled:focus,
+.btn-visit[disabled]:focus,
+fieldset[disabled] .btn-visit:focus,
+.btn-visit.disabled:active,
+.btn-visit[disabled]:active,
+fieldset[disabled] .btn-visit:active,
+.btn-visit.disabled.active,
+.btn-visit[disabled].active,
+fieldset[disabled] .btn-visit.active {
+    background-color: #e67e22;
+    border-color: #e67e22
+}
+
+.btn-visit .badge {
+    color: #e67e22;
+    background-color: #fff
+}
+
 .btn-xl {
     color: #fff;
     background-color: #fed136;
