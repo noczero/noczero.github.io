@@ -1,0 +1,239 @@
+{
+    "basic_info": {
+      "name": "Satrya Budi Pratama",
+      "titles": "Full-Stack Developer",
+      "social": [
+        {
+          "name": "github",
+          "url": "https://github.com",
+          "class": "fab fa-github"
+        },
+        {
+          "name": "instagram",
+          "url": "https://www.instagram.com",
+          "class": "fab fa-instagram"
+        }
+      ],
+      "image": "myProfile.jpg"
+    },
+    "skills": [
+      {
+        "name": "Front-End",
+        "icons": [
+          {
+            "name": "HTML 5",
+            "class": "devicon-html5-plain",
+            "level": "95"
+          },
+          {
+            "name": "CSS 3",
+            "class": "devicon-css3-plain",
+            "level": "95"
+          },
+          {
+            "name": "SCSS",
+            "class": "devicon-sass-plain",
+            "level": "95"
+          },
+          {
+            "name": "JavaScript",
+            "class": "devicon-javascript-plain",
+            "level": "70"
+          },
+          {
+            "name": "Vue",
+            "class": "devicon-vuejs-plain",
+            "level": "70"
+          },
+          {
+            "name": "React",
+            "class": "devicon-react-plain",
+            "level": "70"
+          },
+          {
+            "name": "XML Android",
+            "class": "devicon-android-plain",
+            "level": "85"
+          }
+        ]
+      },
+      {
+        "name": "Back-End",
+        "icons": [
+          {
+            "name": "Python",
+            "class": "devicon-python-plain",
+            "level": "95"
+          },
+          {
+            "name": "Node.JS",
+            "class": "devicon-nodejs-plain",
+            "level": "95"
+          },
+          {
+            "name": "PHP",
+            "class": "devicon-php-plain",
+            "level": "70"
+          },
+          {
+            "name": "Laravel",
+            "class": "devicon-laravel-plain",
+            "level": "70"
+          },
+          {
+            "name": "CI",
+            "class": "devicon-codeigniter-plain",
+            "level": "70"
+          },
+          {
+            "name": "RoR",
+            "class": "devicon-ruby-plain",
+            "level": "85"
+          },
+          {
+            "name" : "Java",
+            "class" : "devicon-java-plain"
+          }
+        ]
+      },
+      {
+        "name" : "Database",
+        "icons" : [
+          {
+            "name" : "MySQL",
+            "class" : "devicon-mysql-plain"
+          },
+          {
+            "name" : "PostgresSQL",
+            "class" : "devicon-postgresql-plain"
+          },
+          {
+            "name" : "MongoDB",
+            "class" : "devicon-mongodb-plain"
+          },
+          {
+            "name" : "Firebase",
+            "class" : "devicon-firebase-plain"
+          },
+          {
+            "name" : "InfluxDB",
+            "class" : "devicon-influxdb-plain"
+          }
+        ]
+      },
+      {
+        "name" : "Data Science",
+        "icons" : [
+          {
+            "name" : "Scikit-Learn",
+            "class" : ""
+          },
+          {
+            "name" : "PyTorch",
+            "class" : ""
+          },
+          {
+            "name" : "OpenCV",
+            "class" : ""
+          },
+          {
+            "name" : "Tensorflow",
+            "class" : ""
+          },
+          {
+            "name" : "Keras",
+            "class" : ""
+          },
+          {
+            "name" : "Jupyter Notebook",
+            "class" : ""
+          },
+          {
+            "name" : "Matlab",
+            "class" : ""
+          }
+        ]
+      },
+      {
+        "name" : "Cyber Physical System",
+        "icons" : [
+          {
+            "name" : "C++",
+            "class" : "devicon-cplusplus-plain"
+          },
+          {
+            "name" : "Arduino",
+            "class" : ""
+          },
+          {
+            "name" : "ESP8266",
+            "class" : ""
+          },
+          {
+            "name" : "ESP32",
+            "class" : ""
+          },
+          {
+            "name" : "Pixhawk",
+            "class": ""
+          },
+          {
+            "name" : "Raspberry Pi",
+            "class" : ""
+          },
+          {
+            "name" : "NVIDIA Jetson",
+            "class" : ""
+          }
+        ]
+      }, {
+        "name" : "Dev Ops",
+        "icons" : [
+          {
+            "name" : "Debian",
+            "class" : "devicon-debian-plain"
+          },
+          {
+            "name" : "Ubuntu",
+            "class" : "devicon-ubuntu-plain"
+          },
+          {
+            "name" : "Docker",
+            "class" : "devicon-docker-plain"
+          },
+          {
+            "name" : "Nginx",
+            "class" : "devicon-nginx-plain"
+          },
+          {
+            "name" : "Apache",
+            "class" : "devicon-apache-plain"
+          },
+          {
+            "name" : "Node-RED",
+            "class" : "devicon-nodered-plain"
+          },
+          {
+            "name" : "Redis",
+            "class" : "devicon-redis-plain"
+          },
+          {
+            "name" : "Samba",
+            "class" : "devicon-samba-plain"
+          },
+          {
+            "name" : "Mosquitto",
+            "class" : ""
+          },
+          {
+            "name" : "Portainer",
+            "class" : ""
+          },
+          {
+            "name" : "WireGuard",
+            "class" : ""
+          }
+        ]
+      }
+    ]
+  }
