@@ -1,0 +1,92 @@
+{
+    "basic_info": {
+      "description_header": "Hi",
+      "description": "I'm Satrya founder Zero-Inside. I skilled in full-stack developer, network administration, data scientist, IoT system and robotics. Beside I'm software and hardware developer, I skilled also in image and video editing. ",
+      "section_name": {
+        "about": "About Me",
+        "projects": "Projects",
+        "skills": "Skills",
+        "experience": "Experiences"
+      }
+    },
+    "projects": [
+      {
+        "title": "GPON Network Monitoring System",
+        "startDate": "2020",
+        "description": "Developed information system and telegram bot for checking GPON status and optical information.",
+        "images": [
+          "images/portfolio/gponbot/web-home.png",
+          "images/portfolio/gponbot/web1.png",
+          "images/portfolio/gponbot/web2.png",
+          "images/portfolio/gponbot/teleg3.png"
+        ],
+        "url": "",
+        "technologies": [
+          {
+            "class": "devicon-laravel-plain-wordmark colored",
+            "name": "Laravel"
+          },
+          {
+            "class": "devicon-python-plain-wordmark colored",
+            "name": "Python"
+          }
+        ]
+      }
+    ],
+    "experience": [
+      {
+        "company": "ZeroInside",
+        "title": "CEO",
+        "years": "June 2014 - Present",
+        "status": [
+          "Ongoing"
+        ],
+        "description": "Founder and leader of project"
+      },
+      {
+        "company": "Aeromodelling and Payload Telemetry Research Group (APTRG)",
+        "title": "Supervisor",
+        "years": "October 2015 - Present",
+        "status": [
+          "Ongoing"
+        ],
+        "description": "Ex-Head of Ground Control System Division"
+      },
+      {
+        "company": "AIESEC",
+        "title": "International Leadership Development",
+        "years": "June 2019 - Jul 2019",
+        "status": [
+          "Finished"
+        ],
+        "description": "Contributed in education quality SDG 3 of Sawasdee 33 Project in Petchaburi, Thailand."
+      },
+      {
+        "company": "Balai Besar Bahan dan Barang Teknik (B4T)",
+        "title": "Programming Internship",
+        "years": "May 2018 - Jun 2018",
+        "status": [
+          "Finished"
+        ],
+        "description": "Developed Odoo RFID Module of Warehouse Monitoring."
+      },
+      {
+        "company": "Telkom University",
+        "title": "Machine Learning Lecturer's Assistant",
+        "years": "February 2018 - June 2018",
+        "status": [
+          "Finished"
+        ],
+        "description": "Became assistant for grading weekly programming task IF-39-05, IF-39-12, and IF-39-INT."
+      },
+      {
+        "company": "PT. Telkom Indonesia",
+        "title": "Information Technology Support Technician",
+        "years": "June 2013 - August 2013",
+        "status": [
+          "Finished"
+        ],
+        "description": "Became technician for monitoring and maintenance network devices."
+      }
+    ]
+  }
