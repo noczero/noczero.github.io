@@ -1,7 +1,7 @@
 @import '../src/scss/themes/theme-dark.scss';
 @import '../src/scss/themes/theme-light.scss';
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@200;300&display=swap');
-@import url('//db.onlinewebfonts.com/c/23c0fcab84d99da0de762de7e220a6e1?family=Europa');
+
 
 html {
 	font-size: 90%;
@@ -9,6 +9,11 @@ html {
 	margin: 0;
 	padding: 0;
 }
+
+html, body {
+	overflow-x:hidden
+}
+
 
 .aligner {
 	display: flex;
@@ -178,6 +183,7 @@ header h1 {
 	display: block;
 	max-width: 300px;
 	border-radius: 5px;
+
 }
 
 .polaroid span {
@@ -196,6 +202,7 @@ header h1 {
 	z-index: 0;
 	position: relative;
 	border-radius: 10px;
+
 }
 
 .link-href {
@@ -211,7 +218,7 @@ header h1 {
 }
 
 .font-europa {
-	font-family: Europa, Arial, sans-serif;
+	font-family: 'opensans', Arial, sans-serif;
 }
 
 #preview {
@@ -231,6 +238,11 @@ header h1 {
 #resume {
 	background: #efe1bd;
 }
+
+#project{
+	background: #d4edda;
+}
+
 
 .experience-icon {
 	font-size: 300%;
@@ -387,7 +399,7 @@ header h1 {
 }
 
 #skills {
-	background: #1F1F1F;
+	background: #454d55;
 	min-height: 200px;
 	width: 100%;
 	overflow: hidden;

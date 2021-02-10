@@ -7,6 +7,9 @@ import About from "./components/About";
 import Experience from "./components/Experience";
 import Projects from "./components/Projects";
 import Skills from "./components/Skills";
+import Education from "./components/Education";
+import Loader from "react-loader-spinner";
+import "react-loader-spinner/dist/loader/css/react-spinner-loader.css";
 
 class App extends Component {
 
@@ -80,62 +83,76 @@ class App extends Component {
   }
 
   render() {
-    return (
-      <div>
-        <Header sharedData={this.state.sharedData.basic_info} />
-        <div className="col-md-12 mx-auto text-center language">
-          <div
-            onClick={() =>
-              this.applyPickedLanguage(
-                window.$primaryLanguage,
-                window.$secondaryLanguageIconId
-              )
-            }
-            style={{ display: "inline" }}
-          >
+    if(this.state.loading){
+        return(<Loader
+            type="Puff"
+            color="#00BFFF"
+            height={100}
+            width={100}
+            timeout={3000} //3 secs
+        />)
+    } else {
+      return (
+          <div>
+            <Header sharedData={this.state.sharedData.basic_info}/>
+            <div className="col-md-12 mx-auto text-center language">
+              <div
+                  onClick={() =>
+                      this.applyPickedLanguage(
+                          window.$primaryLanguage,
+                          window.$secondaryLanguageIconId
+                      )
+                  }
+                  style={{display: "inline"}}
+              >
             <span
-              className="iconify language-icon mr-5"
-              data-icon="twemoji-flag-for-flag-united-kingdom"
-              data-inline="false"
-              id={window.$primaryLanguageIconId}
+                className="iconify language-icon mr-5"
+                data-icon="twemoji-flag-for-flag-united-kingdom"
+                data-inline="false"
+                id={window.$primaryLanguageIconId}
             ></span>
-          </div>
-          <div
-            onClick={() =>
-              this.applyPickedLanguage(
-                window.$secondaryLanguage,
-                window.$primaryLanguageIconId
-              )
-            }
-            style={{ display: "inline" }}
-          >
+              </div>
+              <div
+                  onClick={() =>
+                      this.applyPickedLanguage(
+                          window.$secondaryLanguage,
+                          window.$primaryLanguageIconId
+                      )
+                  }
+                  style={{display: "inline"}}
+              >
             <span
-              className="iconify language-icon"
-              data-icon="twemoji-flag-for-flag-poland"
-              data-inline="false"
-              id={window.$secondaryLanguageIconId}
+                className="iconify language-icon"
+                data-icon="twemoji-flag-for-flag-indonesia"
+                data-inline="false"
+                id={window.$secondaryLanguageIconId}
             ></span>
+              </div>
+            </div>
+            <About
+                resumeBasicInfo={this.state.resumeData.basic_info}
+                sharedBasicInfo={this.state.sharedData.basic_info}
+            />
+            <Education
+                resumeBasicInfo={this.state.resumeData.basic_info}
+                resumeEducation={this.state.resumeData.education}
+            />
+            <Experience
+                resumeExperience={this.state.resumeData.experience}
+                resumeBasicInfo={this.state.resumeData.basic_info}
+            />
+            <Projects
+                resumeProjects={this.state.resumeData.projects}
+                resumeBasicInfo={this.state.resumeData.basic_info}
+            />
+            <Skills
+                sharedSkills={this.state.sharedData.skills}
+                resumeBasicInfo={this.state.resumeData.basic_info}
+            />
+            <Footer sharedBasicInfo={this.state.sharedData.basic_info}/>
           </div>
-        </div>
-        <About
-          resumeBasicInfo={this.state.resumeData.basic_info}
-          sharedBasicInfo={this.state.sharedData.basic_info}
-        />
-        <Projects
-          resumeProjects={this.state.resumeData.projects}
-          resumeBasicInfo={this.state.resumeData.basic_info}
-        />
-        <Skills
-          sharedSkills={this.state.sharedData.skills}
-          resumeBasicInfo={this.state.resumeData.basic_info}
-        />
-        <Experience
-          resumeExperience={this.state.resumeData.experience}
-          resumeBasicInfo={this.state.resumeData.basic_info}
-        />
-        <Footer sharedBasicInfo={this.state.sharedData.basic_info} />
-      </div>
-    );
+      );
+    }
   }
 }
 

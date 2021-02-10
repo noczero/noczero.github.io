@@ -6,7 +6,8 @@
         "about": "About Me",
         "projects": "Projects",
         "skills": "Skills",
-        "experience": "Experiences"
+        "experience": "Experience",
+        "education" : "Education"
       }
     },
     "projects": [
@@ -88,5 +89,17 @@
         ],
         "description": "Became technician for monitoring and maintenance network devices."
       }
-    ]
+    ],
+  "education" : [
+    {
+      "name" : "Master of Engineering, Control Engineering and Intelligent System",
+      "university" : "Bandung Institute of Technology",
+      "year" : "2020 - Present"
+    },
+    {
+      "name" : "Bachelor of Informatics",
+      "university" : "Telkom University",
+      "year" : "2015 - 2019"
+    }
+  ]
   }

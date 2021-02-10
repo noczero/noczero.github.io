@@ -49,7 +49,7 @@ class Projects extends Component {
     }
 
     return (
-      <section id="portfolio">
+      <section id="project">
         <div className="col-md-12">
           <h1 className="section-title font-weight-bold" style={{ color: "black" }}>
             <span>{sectionName}</span>
