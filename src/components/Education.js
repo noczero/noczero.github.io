@@ -30,15 +30,15 @@ class Education extends Component {
                             {education.name}
                         </h3>
 
-                        <h4
+                        <h5
                             className="vertical-timeline-element-subtitle"
                             style={{ textAlign: "left" }}
                         >
                             <hr/>
-                            <small><i className="fa fa-building m-2" aria-hidden="true"></i>
+                            <small><i className="fas fa-map-pin m-2" aria-hidden="true"></i>
                             </small>
                             {education.university}
-                        </h4>
+                        </h5>
                     </VerticalTimelineElement>
                 )
             })

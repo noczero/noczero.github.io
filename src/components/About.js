@@ -62,10 +62,11 @@ class About extends Component {
                     }}
                   >
                     <br />
-                    <span className="wave">{hello} You :) </span>
+                    <span className="wave">{hello} :) </span>
                     <br />
                     <br />
                     {about}
+                    <br/>
                     <a href="https://blog.zeroinside.in/?page_id=13" className="btn btn-light font-europa" role="button" data-bs-toggle="button"> More ...</a>
                   </div>
                 </div>

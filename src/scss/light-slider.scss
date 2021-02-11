@@ -105,7 +105,9 @@ $content-background-color: #D7CAAA;
     }
 
     img {
-      width: 35%;
+      object-fit: cover;
+
+      width: auto;
       height: auto;
     }
   }
@@ -118,6 +120,7 @@ $content-background-color: #D7CAAA;
     justify-content: center;
     > img,
     > video {
+      object-fit: cover;
       width: 100%;
       position: absolute;
       top: 0;

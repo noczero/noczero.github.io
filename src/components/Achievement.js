@@ -30,13 +30,10 @@ class Achievement extends Component {
                             {achievement.name}
                         </h3>
 
-                        <p
-                            className="vertical-timeline-element-subtitle"
-                            style={{ textAlign: "left" }}
-                        >
-                            <hr/>
+                        <hr/>
+                        <div className="font-europa" style={{ textAlign: "left", marginTop: "15px" }}>
                             {achievement.description}
-                        </p>
+                        </div>
                     </VerticalTimelineElement>
                 )
             })
