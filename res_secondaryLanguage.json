@@ -32,71 +32,99 @@
           "name": "Python"
         }
       ]
-    }
-  ],
-  "experience": [
-    {
-      "company": "ZeroInside",
-      "title": "CEO",
-      "years": "June 2014 - Present",
-      "status": [
-        "Ongoing"
-      ],
-      "description": "Founder and leader of project"
     },
     {
-      "company": "Aeromodelling and Payload Telemetry Research Group (APTRG)",
-      "title": "Supervisor",
-      "years": "October 2015 - Present",
-      "status": [
-        "Ongoing"
+      "title": "Smart Humidifier and Purifier",
+      "startDate": "2020",
+      "description": "Developed a cyber physical system (CPS), that consist of ESP32 embedded device and mobile-web application. The system based on Intenet of Things, so it can connect to the internet and get access from the smartphone. How this device works is by filtering air using High Efficiency Particulate Air (HEPA) Filter and scent the room by aromatherapy steam. The device can be placed on the table and work 24 hours for keeping the room conditions. Beside that, there is alert mechanism by turn on the buzzer if somoone open the door when I'm sleeping, it prevent from theft.",
+      "images": [
+        "images/portfolio/shap/IMG_2020-11-30-20-36-25-499.jpg",
+        "images/portfolio/shap/IMG_2020-11-30-20-36-38-730.jpg",
+        "images/portfolio/shap/IMG_2020-11-30-20-36-44-018.jpg",
+        "images/portfolio/shap/IMG_2020-11-30-20-36-47-343.jpg",
+        "images/portfolio/shap/ss_aplikasi_things.jpg"
       ],
-      "description": "Ex-Head of Ground Control System Division"
+      "url": "https://www.youtube.com/watch?v=plXvW1kBzq8",
+      "technologies": [
+        {
+          "class": "devicon-cplusplus-plain-wordmark colored",
+          "name": "C++"
+        },
+        {
+          "class": "devicon-docker-plain-wordmark colored",
+          "name": "Docker"
+        },
+        {
+          "class": "",
+          "name": "InfluxDB"
+        },
+        {
+          "class": "",
+          "name": "REST API"
+        },
+        {
+          "class": "",
+          "name": "Grafana"
+        },
+        {
+          "class": "",
+          "name": "PlatformIO"
+        },
+        {
+          "class": "devicon-android-plain-wordmark colored",
+          "name": "Android"
+        }
+      ]
     },
     {
-      "company": "AIESEC",
-      "title": "International Leadership Development",
-      "years": "June 2019 - Jul 2019",
-      "status": [
-        "Finished"
+      "title": "River Water Monitoring",
+      "startDate": "2020",
+      "description": "Developed a cyber physical system (CPS), that consist of arduino + LoRA embedded device and web application. The system used Antares platform as API",
+      "images": [
+        "images/portfolio/watermonitoring/ss1.png",
+        "images/portfolio/watermonitoring/ss2.png",
+        "images/portfolio/watermonitoring/ss3.png"
       ],
-      "description": "Contributed in education quality SDG 3 of Sawasdee 33 Project in Petchaburi, Thailand."
+      "url": "http://waterquality.us-south.cf.appdomain.cloud/",
+      "technologies": [
+        {
+          "class": "devicon-cplusplus-plain-wordmark colored",
+          "name": "C++"
+        },
+        {
+          "class": "",
+          "name": "Antares"
+        },
+        {
+          "class": "devicon-python-plain-wordmark colored",
+          "name": "Python"
+        }
+      ]
     },
     {
-      "company": "Balai Besar Bahan dan Barang Teknik (B4T)",
-      "title": "Programming Internship",
-      "years": "May 2018 - Jun 2018",
-      "status": [
-        "Finished"
+      "title": "Pet Tracker and Finder",
+      "startDate": "2020",
+      "description": "Developed a cyber physical system (CPS), that consist of ESP32 pet wearable embedded device and android application. The system can estimate the distance between pet and user for indoor tracking and outdoor tracking, also the buzzer will beep stronger if the pet closer",
+      "images": [
+        "images/portfolio/pettracker/IMG_20200530_181223.jpg",
+        "images/portfolio/pettracker/Screenshot_20210211-172448_Gallery_Go.png",
+        "images/portfolio/pettracker/Screenshot_20210211-172456_Gallery_Go.png"
       ],
-      "description": "Developed Odoo RFID Module of Warehouse Monitoring."
-    },
-    {
-      "company": "Telkom University",
-      "title": "Machine Learning Lecturer's Assistant",
-      "years": "February 2018 - June 2018",
-      "status": [
-        "Finished"
-      ],
-      "description": "Became assistant for grading weekly programming task IF-39-05, IF-39-12, and IF-39-INT."
-    },
-    {
-      "company": "PT. Uavindo Nusantara",
-      "title": "UAV Engineering",
-      "years": "April 2016 - May 2016",
-      "status": [
-        "Finished"
-      ],
-      "description": "Learned how to create resin based materials for UAV."
-    },
-    {
-      "company": "PT. Telkom Indonesia",
-      "title": "Information Technology Support Technician",
-      "years": "June 2013 - August 2013",
-      "status": [
-        "Finished"
-      ],
-      "description": "Became technician for monitoring and maintenance network devices."
+      "url": "",
+      "technologies": [
+        {
+          "class": "devicon-cplusplus-plain-wordmark colored",
+          "name": "C++"
+        },
+        {
+          "class": "devicon-android-plain-wordmark colored",
+          "name": "Android"
+        },
+        {
+          "class": "devicon-firebase-plain-wordmark colored",
+          "name": "Firebase"
+        }
+      ]
     }
   ],
   "education" : [
