@@ -29,7 +29,7 @@ class Skills extends Component {
 
         return(
             <div className="text-white pt-3" key={i}>
-              <h2>{skils.name}</h2>
+              <h4>{skils.name}</h4>
               <ul className="list-inline mx-auto skill-icon">{icons}</ul>
             </div>
         )

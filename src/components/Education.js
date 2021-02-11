@@ -19,7 +19,7 @@ class Education extends Component {
                             color: "#fff",
                             textAlign: "center",
                         }}
-                        icon={<i className="far fa-caret-square-down experience-icon m-2"></i>}
+                        icon={<i className="fas fa-university experience-icon m-2"></i>}
                         key={i}
                     >
 

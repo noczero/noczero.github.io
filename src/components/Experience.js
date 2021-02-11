@@ -20,7 +20,7 @@ class Experience extends Component {
               color: "#fff",
               textAlign: "center",
             }}
-            icon={<i className="far fa-caret-square-down experience-icon m-2"></i>}
+            icon={<i className="fas fa-briefcase experience-icon m-2"></i>}
             key={i}
           >
 
@@ -36,6 +36,7 @@ class Experience extends Component {
             >
               {work.company}
             </h4>
+                  <hr/>
             <div className="font-europa" style={{ textAlign: "left", marginTop: "15px" }}>
               {work.description}
             </div>

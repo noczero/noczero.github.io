@@ -9,6 +9,7 @@ import Projects from "./components/Projects";
 import Skills from "./components/Skills";
 import Education from "./components/Education";
 import Loader from "react-loader-spinner";
+import Achievement from "./components/Achievement"
 import "react-loader-spinner/dist/loader/css/react-spinner-loader.css";
 
 class App extends Component {
@@ -139,6 +140,10 @@ class App extends Component {
             />
             <Experience
                 resumeExperience={this.state.resumeData.experience}
+                resumeBasicInfo={this.state.resumeData.basic_info}
+            />
+            <Achievement
+                resumeAchievement={this.state.resumeData.achievement}
                 resumeBasicInfo={this.state.resumeData.basic_info}
             />
             <Projects
