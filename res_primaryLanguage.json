@@ -145,27 +145,27 @@
     },
     {
       "name" : "Participant on National IT Network System Administration (LKS SMK)",
-      "description" : "I configured a packet tracer network then linux and windows client-server network with iptables firewall, VPN, DNS-server, samba-server, dhcsp-server, web-server, mail-server, proxy-server, and FTP server.",
+      "description" : "I configured a packet tracer network then linux and windows client-server network with iptables firewall, VPN, DNS-server, samba-server, DHCP-server, web-server, mail-server, proxy-server, and FTP server.",
       "year" : "June 2015, Tangerang"
     },
     {
       "name" : "First Winner on North Sumatera IT Network System Administration (LKS SMK)",
-      "description" : "I configured a linux client-server network with iptables firewall, DNS-server, samba-server, dhcsp-server, web-server, mail-server, proxy-server, and FTP server.",
+      "description" : "I configured a linux client-server network with iptables firewall, DNS-server, samba-server, DHCP-server, web-server, mail-server, proxy-server, and FTP server.",
       "year" : "April 2015, Medan"
     },
     {
       "name" : "First Winner on Medan IT Network System Administration (LKS SMK)",
-      "description" : "I configured a linux client-server network with iptables firewall, DNS-server, samba-server, dhcsp-server, web-server, mail-server, proxy-server, and FTP server.",
+      "description" : "I configured a linux client-server network with iptables firewall, DNS-server, samba-server, DHCP-server, web-server, mail-server, proxy-server, and FTP server.",
       "year" : "October 2014, Medan"
     },
     {
       "name" : "Third Winner on North Sumatera IT Network System Administrator (LKS SMK)",
-      "description" : "I configured a linux client-server network with iptables firewall, DNS-server, samba-server, dhcsp-server, web-server, mail-server, proxy-server, and FTP server.",
+      "description" : "I configured a linux client-server network with iptables firewall, DNS-server, samba-server, DHCP-server, web-server, mail-server, proxy-server, and FTP server.",
       "year" : "March 2013, Medan"
     },
     {
       "name" : "First Winner on North Sumatera IT Network System Administrator (LKS SMK)",
-      "description" : "I configured a linux client-server network with iptables firewall, DNS-server, samba-server, dhcsp-server, web-server, mail-server, proxy-server, and FTP server.",
+      "description" : "I configured a linux client-server network with iptables firewall, DNS-server, samba-server, DHCP-server, web-server, mail-server, proxy-server, and FTP server.",
       "year" : "March 2012, Medan"
     }
   ]

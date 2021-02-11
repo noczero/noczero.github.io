@@ -110,5 +110,62 @@
       "university" : "Telkom University",
       "year" : "2015 - 2019"
     }
+  ],
+  "achievement": [
+    {
+      "name" : "Best Innovation on Technology Development KRTI 2018",
+      "description" : "I developed a drone that has hand gesture control, people counting, and SLAM. Indonesia Flying Robot Competition (KRTI) held by Indonesian Ministry of Research, Technology, and Higher Education",
+      "year" : "November 2018, Lampung"
+    },
+    {
+      "name" : "APICTA 2018 Indonesia Delegation",
+      "description" : "Participant as FALTO team on internet of things category, research-and-development category, and health care category. We developed fall prediction system for eldery people",
+      "year" : "October 2018, Guangzhou, China"
+    },
+    {
+      "name" : "Best Design on Internet of Things Telkom University Competition",
+      "description" : "I developed an early warning system for tea plantation with drone automation",
+      "year" : "September 2018, Bandung"
+    },
+    {
+      "name" : "Second Winner on Internet of Things Challenge Competition Electrical Engineering Days ITB",
+      "description" : "I developed a hybrid power system that combined solar cells, vibration power, and electromagnetic wave for powering Weather Station with GIS Application",
+      "year" : "May 2018, Bandung"
+    },
+    {
+      "name" : "Third Winner Fixed Wing on KRTI 2017",
+      "description" : "I developed a flying wing for mapping mission on fixed wing category. Indonesia Flying Robot Competition (KRTI) is held by Indonesian Ministry of Research, Technology, and Higher Education",
+      "year" : "October 2017, Pasuruan"
+    },
+    {
+      "name" : "Third Winner Balloon Atmosphere on KOMURINDO-KOMBAT 2017",
+      "description" : "I developed cyber physical system and GCS web application for capturing atmosphere data. KOMURINDO-KOMBAT is held by National Institute of Aeronautics and Space (LAPAN)",
+      "year" : "Agustus 2017, Pameungpeuk, Garut"
+    },
+    {
+      "name" : "Participant on National IT Network System Administration (LKS SMK)",
+      "description" : "I configured a packet tracer network then linux and windows client-server network with iptables firewall, VPN, DNS-server, samba-server, DHCP-server, web-server, mail-server, proxy-server, and FTP server.",
+      "year" : "June 2015, Tangerang"
+    },
+    {
+      "name" : "First Winner on North Sumatera IT Network System Administration (LKS SMK)",
+      "description" : "I configured a linux client-server network with iptables firewall, DNS-server, samba-server, DHCP-server, web-server, mail-server, proxy-server, and FTP server.",
+      "year" : "April 2015, Medan"
+    },
+    {
+      "name" : "First Winner on Medan IT Network System Administration (LKS SMK)",
+      "description" : "I configured a linux client-server network with iptables firewall, DNS-server, samba-server, DHCP-server, web-server, mail-server, proxy-server, and FTP server.",
+      "year" : "October 2014, Medan"
+    },
+    {
+      "name" : "Third Winner on North Sumatera IT Network System Administrator (LKS SMK)",
+      "description" : "I configured a linux client-server network with iptables firewall, DNS-server, samba-server, DHCP-server, web-server, mail-server, proxy-server, and FTP server.",
+      "year" : "March 2013, Medan"
+    },
+    {
+      "name" : "First Winner on North Sumatera IT Network System Administrator (LKS SMK)",
+      "description" : "I configured a linux client-server network with iptables firewall, DNS-server, samba-server, DHCP-server, web-server, mail-server, proxy-server, and FTP server.",
+      "year" : "March 2012, Medan"
+    }
   ]
 }
