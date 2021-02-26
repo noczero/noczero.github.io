@@ -5,13 +5,18 @@
       "social": [
         {
           "name": "github",
-          "url": "https://github.com",
+          "url": "https://github.com/noczero",
           "class": "fab fa-github"
         },
         {
-          "name": "instagram",
-          "url": "https://www.instagram.com",
-          "class": "fab fa-instagram"
+          "name": "linkedin",
+          "url": "https://www.linkedin.com/in/satrya-budi-pratama",
+          "class": "fab fa-linkedin-in"
+        },
+        {
+          "name": "wordpress",
+          "url": "https://blog.zeroinside.in",
+          "class": "fa fa-wordpress"
         }
       ],
       "image": "myProfile.jpg"
