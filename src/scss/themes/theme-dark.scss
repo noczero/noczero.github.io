@@ -41,6 +41,9 @@ body[data-theme="dark"] {
 
    #about {
       background-color: #7f7f7f;
+      .section-title {
+         color: white !important;
+      }
       h1 span {
          color: white;
       }
