@@ -14,9 +14,9 @@
           "class": "fab fa-linkedin-in"
         },
         {
-          "name": "wordpress",
+          "name": "blog",
           "url": "https://blog.zeroinside.in",
-          "class": "fa fa-wordpress"
+          "class": "fas fa-blog"
         }
       ],
       "image": "myProfile.jpg"
