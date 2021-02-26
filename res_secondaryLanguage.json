@@ -127,6 +127,71 @@
       ]
     }
   ],
+  "experience": [
+    {
+      "company": "ZeroInside",
+      "title": "CEO",
+      "years": "June 2014 - Present",
+      "status": [
+        "Ongoing"
+      ],
+      "description": "Founder and leader of project"
+    },
+    {
+      "company": "Aeromodelling and Payload Telemetry Research Group (APTRG)",
+      "title": "Supervisor",
+      "years": "October 2015 - Present",
+      "status": [
+        "Ongoing"
+      ],
+      "description": "Ex-Head of Ground Control System Division"
+    },
+    {
+      "company": "AIESEC",
+      "title": "International Leadership Development",
+      "years": "June 2019 - Jul 2019",
+      "status": [
+        "Finished"
+      ],
+      "description": "Contributed in education quality SDG 3 of Sawasdee 33 Project in Petchaburi, Thailand."
+    },
+    {
+      "company": "Balai Besar Bahan dan Barang Teknik (B4T)",
+      "title": "Programming Internship",
+      "years": "May 2018 - Jun 2018",
+      "status": [
+        "Finished"
+      ],
+      "description": "Developed Odoo RFID Module of Warehouse Monitoring."
+    },
+    {
+      "company": "Telkom University",
+      "title": "Machine Learning Lecturer's Assistant",
+      "years": "February 2018 - June 2018",
+      "status": [
+        "Finished"
+      ],
+      "description": "Became assistant for grading weekly programming task IF-39-05, IF-39-12, and IF-39-INT."
+    },
+    {
+      "company": "PT. Uavindo Nusantara",
+      "title": "UAV Engineering",
+      "years": "April 2016 - May 2016",
+      "status": [
+        "Finished"
+      ],
+      "description": "Learned how to create resin based materials for UAV."
+    },
+    {
+      "company": "PT. Telkom Indonesia",
+      "title": "Information Technology Support Technician",
+      "years": "June 2013 - August 2013",
+      "status": [
+        "Finished"
+      ],
+      "description": "Became technician for monitoring and maintenance network devices."
+    }
+  ],
   "education" : [
     {
       "name" : "Master of Engineering, Control Engineering and Intelligent System",
