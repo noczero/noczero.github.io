@@ -1,7 +1,6 @@
 var CACHE_NAME = 'pwa-zero-inside';
 var urlsToCache = [
     '/',
-    'static',
     'images/myProfile.jpg',
     'images/portfolio/gponbot/web-home.png',
     'images/portfolio/pettracker/IMG_20200530_181223.jpg',
