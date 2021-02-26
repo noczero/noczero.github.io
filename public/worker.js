@@ -1,6 +1,8 @@
 var CACHE_NAME = 'pwa-zero-inside';
 var urlsToCache = [
     '/',
+    'images',
+    'static'
 ];
 
 // Install a service worker
@@ -32,7 +34,7 @@ self.addEventListener('fetch', event => {
 
 // Update a service worker
 self.addEventListener('activate', event => {
-    var cacheWhitelist = ['pwa-task-manager'];
+    var cacheWhitelist = ['pwa-zero-inside'];
     event.waitUntil(
         caches.keys().then(cacheNames => {
             return Promise.all(
