@@ -1,8 +1,12 @@
 var CACHE_NAME = 'pwa-zero-inside';
 var urlsToCache = [
     '/',
-    'images',
-    'static'
+    'static',
+    'images/myProfile.png',
+    'images/portfolio/gponbot/web-home.png',
+    'images/portfolio/pettracker/IMG_20200530_181223.jpg',
+    'images/portfolio/shap/IMG_2020-11-30-20-36-25-499.jpg',
+    'images/portfolio/watermonitoring/ss1.png'
 ];
 
 // Install a service worker
